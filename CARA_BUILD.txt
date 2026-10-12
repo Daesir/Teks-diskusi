@@ -1,0 +1,9 @@
+CARA MEMBUAT APK (tanpa Android Studio)
+1. Buat repositori baru di github.com (boleh private).
+2. Unggah SELURUH isi folder ini (termasuk folder .github).
+3. Buka tab Actions > "Build APK" > Run workflow (atau otomatis setelah push).
+4. Setelah hijau, buka run-nya, unduh artifact "TeksDiskusi-apk" (zip), ekstrak.
+5. Kirim app-debug.apk ke HP, buka, izinkan "install dari sumber tidak dikenal".
+
+Dengan Android Studio: File > Open folder ini > Build > Build APK(s).
+Ganti isi materi: timpa app/src/main/assets/index.html.
